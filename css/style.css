@@ -5,7 +5,7 @@
 body{
     margin: auto;
     text-align: center;
-    background-image: url(/css/pics/marble1.jpg);
+    background-image: url(/pics/marble1.jpg);
     background-attachment: fixed;
     background-size: 100%;
     background-repeat: repeat;
@@ -41,4 +41,39 @@ body{
 
 #kep1{
     float: right;
+}
+
+
+
+
+
+
+
+
+
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 32px;
+    display: block;
+    border: 2px solid;
+    background-color: wheat;
+}
+a:hover{
+    background-color: gray;
+}
+img{
+    width: 200px;
+    height: 200px;
+    background-image: url(/pics/marble1.jpg);
+}
+#menu{
+    background-color: whitesmoke;
+    width: 200px;
+    height: 480px;
+    text-align: center;
+}
+#logo{
+    background-image: url(/pics/marble1.jpg);
 }

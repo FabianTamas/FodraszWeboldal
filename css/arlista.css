@@ -1,0 +1,71 @@
+#ar{
+    width: 80px;
+    background-color: darkorange;
+    color: whitesmoke;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#muvelet{
+ background-color: black;
+ color: white;
+ width: 120px;
+ font-weight: bolder;
+}
+
+#leiras{
+background-color: wheat;
+color: black;
+text-align: left;
+}
+
+body{
+    margin: auto;
+    text-align: center;
+    background-image: url(/pics/marble1.jpg);
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#ferfi{
+    width: 600px;
+    background-color: whitesmoke;
+    box-sizing: border-box;
+    float: left;
+    margin-left: 50px;
+    margin-top: 30px;
+    border: 3px solid black;
+    box-shadow: 0 0 30px rgba(0, 0, 0, .10);
+}
+
+#noi{
+    width: 600px;
+    background-color: whitesmoke;
+    box-sizing: border-box;
+    float: right;
+    margin-right: 50px;
+    margin-top: 30px;
+    border: 3px solid black;
+    box-shadow: 0 0 30px rgba(0, 0, 0, .10);
+}
+
+#informacio{
+    width: 600px;
+    background-color: whitesmoke;
+    box-sizing: border-box;
+    float: left;
+    margin-left: 50px;
+    margin-top: 50px;
+    border: 3px solid black;
+    box-shadow: 0 0 30px rgba(0, 0, 0, .10);
+    font-weight: bolder;
+}
+
+p#inf{
+    text-align: justify;
+}
+
+hr{
+    border: 3px solid black;
+}
