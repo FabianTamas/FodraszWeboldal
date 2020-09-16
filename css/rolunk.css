@@ -8,12 +8,11 @@
 
 body{
     margin: auto;
-    background-image: url(/pics/marble1.jpg);
+    background-image: url(/FodraszWeboldal-master/pics/marble1.jpg);
     background-attachment: fixed;
     background-size: 100%;
     background-repeat: repeat;
 }
-
 
 nav{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
