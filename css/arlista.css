@@ -21,11 +21,62 @@ text-align: left;
 
 body{
     margin: auto;
-    text-align: center;
-    background-image: url(/pics/marble1.jpg);
+    background-image: url(/FodraszWeboldal-master/pics/marble1.jpg);
     background-attachment: fixed;
     background-size: 100%;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
+}
+
+nav{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: black;
+    height: 80px;
+    width: 100%;
+}
+
+label.logo{
+    color: black;
+    background-color: darkorange;
+    border-radius: 100px;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    margin-left: 15px;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a{
+    color: white;
+    font-size: 22px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+a.active,a:hover{
+    background: darkorange;
+    color: black;
+    transition: .5s;
+}
+
+#logo a:hover{
+    background: black;
+    border-radius: 100px;
+
 }
 
 #ferfi{
